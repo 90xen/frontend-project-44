@@ -2,7 +2,6 @@
 import readlineSync from 'readline-sync';
 import hello from '../src/cli.js';
 
-
 const thisNumberEven = () => {
   const userName = hello();
   const firstRandomNumber = Math.floor(Math.random() * 100);

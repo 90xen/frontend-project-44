@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 import hello from '../src/cli.js';
-import thisNumberEven from '../bin/brain-even.js';
-
+import thisNumberEven from './brain-even.js';
 
 hello();
 thisNumberEven();
